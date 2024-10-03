@@ -20,7 +20,21 @@ Then start the container:
 make start
 ```
 
-Lastly connect to the server in game:
+You can ignore errors such as this:
+
+```
+Application tried to create a window, but no driver could be loaded.
+```
+
+Wait until you see a message like this:
+
+```
+Server startup finished (...) switching to running state
+```
+
+Now wait for a bit for the server to show up in the server browser:
 
 * Server name: `!docker-demo`
 * Password: `docker`
+
+The config is set to fill the grid with 9 AI drivers for testing.
