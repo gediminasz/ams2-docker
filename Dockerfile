@@ -4,7 +4,7 @@ RUN steamcmd +force_install_dir /ams2 +login anonymous +@sSteamCmdForcePlatformT
 
 RUN apt update && apt install -y wine
 
-WORKDIR /etc/ams2
+WORKDIR /ams2
 COPY server.cfg .
 
 ENTRYPOINT []
