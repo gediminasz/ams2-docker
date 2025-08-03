@@ -16,3 +16,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           tags: gediminasz/ams2:latest
+          push: true
